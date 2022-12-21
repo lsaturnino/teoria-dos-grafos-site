@@ -1,0 +1,13 @@
+//- layout.pug
+doctype html 
+html 
+    include head.pug
+
+    body 
+        include header.pug
+
+        div.conteudo
+            block conteudo
+                h1 Conteudo padrão!
+
+        include footer.pug
